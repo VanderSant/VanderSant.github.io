@@ -235,18 +235,33 @@ sup {
   top: -0.5em;
 }
 
-a {
-  color: #800000;
-  text-decoration: underline;
-}
-a:hover {
-  color: #974a2d;
+.contact_link {
+    color: #800000;
+    text-decoration: none;
+
+  }
+.contact_link:hover {
+    color: #581d22;
 }
 
-a:not([href]):not([class]), a:not([href]):not([class]):hover {
-  color: inherit;
-  text-decoration: none;
+.contact_link:not([href]):not([class]), a:not([href]):not([class]):hover {
+    color: inherit;
+    text-decoration: none;
 }
+
+.thunderatz {
+    color: inherit;
+    text-decoration: none;
+  }
+.thunderatz:hover {
+    color: #800000;
+}
+
+.thunderatz:not([href]):not([class]), a:not([href]):not([class]):hover {
+    color: inherit;
+    text-decoration: none;
+}
+
 
 pre,
 code,
