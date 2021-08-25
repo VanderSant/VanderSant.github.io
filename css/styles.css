@@ -63,6 +63,10 @@
   --bs-body-bg: #fff;
 }
 
+.navbar {
+  margin-bottom: 20px;
+}
+
 *,
 *::before,
 *::after {
